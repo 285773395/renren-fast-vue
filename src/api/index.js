@@ -5,6 +5,7 @@ import * as menu from './modules/menu'
 import * as log from './modules/log'
 import * as config from './modules/config'
 import * as oss from './modules/oss'
+import * as goods from './modules/goods'
 import * as schedule from './modules/schedule'
 
 export default {
@@ -15,5 +16,6 @@ export default {
   log,        // 系统日志
   config,     // 参数管理
   oss,        // 文件服务
+  goods,        // 商品管理
   schedule    // 定时任务
 }

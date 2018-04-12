@@ -31,6 +31,7 @@ export default new Router({
         { path: '/schedule', component: _import('schedule/index'), name: 'schedule', desc: '定时任务', meta: { isTab: true } },
         { path: '/config', component: _import('config/index'), name: 'config', desc: '参数管理', meta: { isTab: true } },
         { path: '/oss', component: _import('oss/index'), name: 'oss', desc: '文件上传', meta: { isTab: true } },
+        { path: '/goods', component: _import('goods/index'), name: 'goods', desc: '商品管理', meta: { isTab: true } },
         { path: '/log', component: _import('log/index'), name: 'log', desc: '系统日志', meta: { isTab: true } }
       ],
       beforeEnter (to, from, next) {
